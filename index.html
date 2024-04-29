@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Data Anime</title>
+    <style>
+        body{
+          background-color: black;
+        }
+        .fav{
+          color:pink;
+        }
+        .bi-heart-fill{
+          color:red;
+          width: 50px;
+        }
+        .titulo{
+          color:yellow;
+        }
+       .puntuacion{
+         color: magenta;
+       }
+        
+        h5{
+          color: red;
+        }
+        h3{
+          color: yellow;
+        }
+        p{
+          color: white;
+        }
+        span{
+          color: green;
+        }
+        /* Estilos CSS para las tarjetas de anime */
+        .card {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+            background-color: black;
+            text-decoration: none;
+            color: cyan;
+        }
+        .card__image img {
+            max-width: 100%;
+            height: auto;
+            background-color: black;
+        }
+        .card__name {
+            margin-top: 10px;
+        }
+        .tt{
+          text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="tt" style="color: orange">Data<sub style="color:blue;">Anime</sub></h1>
+    <input type="text" id="search_query" placeholder="Ingrese el nombre del anime">
+    <button id="search">Buscar</button>
+    <a id="search_query_url" href="#" target="_blank" style="display: none; margin-top: 10px;"></a>
+    <div id="search_results"></div>
+  <script src="/scripts/title.js"></script>
+    <script src="/scripts/script.js"></script>
+</body>
+</html>
